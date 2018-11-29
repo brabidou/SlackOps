@@ -23,7 +23,7 @@ module.exports = {
    deploy : {
      // "production" is the environment name
      production : {
-       //key  : "/Users/benrabidou/Dropbox/Keys/benrabidou.pem",
+       //key  : "", //If needed but you sholuld make the dev user have access to the target server without pw or keys
        user : "ubuntu",
        host : ["slackops.rabidou.io"],
        ref  : "origin/master",
