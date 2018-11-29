@@ -23,7 +23,7 @@ module.exports = {
    deploy : {
      // "production" is the environment name
      production : {
-       key  : "/Users/benrabidou/Dropbox/Keys/benrabidou.pem",
+       //key  : "/Users/benrabidou/Dropbox/Keys/benrabidou.pem",
        user : "ubuntu",
        host : ["slackops.rabidou.io"],
        ref  : "origin/master",
