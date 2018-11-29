@@ -42,7 +42,7 @@ module.exports = {
        // Can be multiple commands separated by the character ";"
        "pre-deploy-local" : "echo 'This is a local executed command'",
        // Commands to be executed on the server after the repo has been cloned
-       "post-deploy" : "npm install && gulp build && node ./generate_build_number && pm2 startOrRestart ecosystem.config.js --env production",
+       "post-deploy" : "npm install && pm2 startOrRestart ecosystem.config.js --env production",
        // Environment variables that must be injected in all applications on this env
        "env"  : {
          "NODE_ENV": "development"
