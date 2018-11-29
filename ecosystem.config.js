@@ -8,7 +8,7 @@ module.exports = {
     // First application
     {
       name      : 'SlackOps',
-      script    : 'app.js',
+      script    : 'index.js',
       instances : 'max',
       exec_mode : 'cluster',
       env: {
