@@ -1,3 +1,5 @@
+console.log('Enrty point');
+
 const LogHelper         = require('./SlackOps/utilities/log_helper');
 const SlackOps          = require('./SlackOps/app');
 const config            = require('./config');
